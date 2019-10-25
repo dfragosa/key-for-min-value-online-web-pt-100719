@@ -8,7 +8,7 @@
 def key_for_min_value(name_hash)
   name_hash.select do |key, value|
     if key <=> key
-  puts key <10
+  puts key <11
 else
   puts "nil"
     end 
