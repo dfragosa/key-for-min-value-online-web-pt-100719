@@ -6,7 +6,7 @@
 #ABOVE R OFF LIMITS
 
 def key_for_min_value(name_hash)
-  name_hash.keep_if do |key, value| value < value +=1
+  name_hash.keep_if do |key, value| value < value 
     if key < key
   puts key[]
 else
