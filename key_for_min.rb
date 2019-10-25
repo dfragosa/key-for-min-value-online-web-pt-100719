@@ -7,7 +7,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
-    if value <=> key 
+    if value <=> value
   puts value <= 10
 else
   puts "nil"
