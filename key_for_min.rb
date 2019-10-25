@@ -8,7 +8,7 @@
 def key_for_min_value(name_hash)
   name_hash.keep_if do |key, value| 
     if key < key
-  puts key[]
+  puts key < key
 else
   puts nil
     end 
